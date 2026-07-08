@@ -73,7 +73,7 @@ const projects = [
     ...projectAssets('blog_site', 6),
     title: 'Blog Platform',
     url: '#',
-    github: 'https://github.com/jhanzaibgithub/Blog-site-Vue-js-Laravel.git',
+    github: 'https://github.com/rizwan-asghar-dev/Blog-site-Vue-js-Laravel.git',
     category: 'Web',
     label: 'Web App',
     description:

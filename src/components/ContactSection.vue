@@ -6,14 +6,14 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 // UPDATED
-const email = 'jahanzaibzafar.dev63@gmail.com';
-const whatsappNumber = '+92 306 764 8159';
+const email = 'rizwandnp266@gmail.com';
+const whatsappNumber = '+92 346 0479354';
 const whatsappUrl =
-  'https://wa.me/923067648159?text=Hi%20Jahanzaib%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project.';
+  'https://wa.me/923460479354?text=Hi%20Jahanzaib%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project.';
 const socialLinks = [
   ['WhatsApp', 'WA', whatsappUrl],
-  ['LinkedIn', 'in', 'https://www.linkedin.com/in/jahanzaib-zafar-814ab4296/'],
-  ['GitHub', 'GH', 'https://github.com/jhanzaibgithub'],
+  ['LinkedIn', 'in', 'https://www.linkedin.com/in/muhammad-rizwan-php-laravel-developer/'],
+  ['GitHub', 'GH', 'https://github.com/rizwan-asghar-dev'],
   ['Upwork', 'Up', 'https://www.upwork.com/freelancers/~017d9280669d695f18?viewMode=1&mp_source=share'],
 ];
 
@@ -42,13 +42,13 @@ onMounted(() => {
             <b>WhatsApp</b>
             <span>{{ whatsappNumber }}</span>
           </a>
-          <a class="contact-item" href="https://www.linkedin.com/in/jahanzaib-zafar-814ab4296/" target="_blank" rel="noreferrer">
+          <a class="contact-item" href="https://www.linkedin.com/in/muhammad-rizwan-php-laravel-developer/" target="_blank" rel="noreferrer">
             <span class="contact-icon">in</span>
-            <span>linkedin.com/in/jahanzaib-zafar-814ab4296</span>
+            <span>linkedin.com</span>
           </a>
-          <a class="contact-item" href="https://github.com/jhanzaibgithub" target="_blank" rel="noreferrer">
+          <a class="contact-item" href="https://github.com/rizwan-asghar-dev" target="_blank" rel="noreferrer">
             <span class="contact-icon">GH</span>
-            <span>jhanzaibgithub</span>
+            <span>github.com</span>
           </a>
           <a
             class="contact-item"

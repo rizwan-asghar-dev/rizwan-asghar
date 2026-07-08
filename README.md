@@ -1,4 +1,4 @@
-# Jahanzaib Zafar Portfolio
+# M Rizwan Portfolio
 
 Premium Vue 3 + Vite single-page portfolio with a custom canvas galaxy background, GSAP scroll animations, bento project grid, skills, experience timeline, and static GitHub Pages deployment.
 

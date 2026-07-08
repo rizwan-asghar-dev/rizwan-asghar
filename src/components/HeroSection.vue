@@ -3,7 +3,7 @@ import { onMounted, ref } from 'vue';
 import gsap from 'gsap';
 
 const role = ref('Full Stack Developer');
-const roles = ['Full Stack Developer (Laravel, MERN, Vue.js)', 'Laravel Engineer', 'Vue.js Builder', 'Node.js API Specialist'];
+const roles = ['Full Stack Developer (Laravel, Vue.js)', 'Laravel Engineer', 'Vue.js Builder',];
 const base = import.meta.env.BASE_URL;
 
 function scrollToProjects() {
@@ -42,24 +42,24 @@ onMounted(() => {
   <section id="home" class="hero section-shell">
     <div class="hero-content">
       <span class="eyebrow">Available for freelance</span>
-      <h1 class="hero-name">Jahanzaib<br/>Zafar</h1>
+      <h1 class="hero-name">Muhammad<br/>Rizwan</h1>
       <strong class="hero-role">{{ role }}</strong>
       <p class="hero-copy">
-        I build polished web products with Vue, Laravel, Node.js, API integrations, and database systems that stay stable after launch.
+        I build polished web products with Vue, Laravel, API integrations, and database systems that stay stable after launch.
       </p>
       <div class="hero-actions">
-        <a class="btn primary" :href="`${base}jahanzaib-developer.pdf`" download="Jahanzaib-Zafar-CV.pdf">Download CV</a>
+        <a class="btn primary" :href="`${base}jahanzaib-developer.pdf`" download="rizwan-developer.pdf">Download CV</a>
         <button class="btn ghost" @click="scrollToProjects">View Projects</button>
-        <a class="btn ghost" href="https://github.com/jhanzaibgithub" target="_blank" rel="noreferrer">View GitHub</a>
-        <a class="btn ghost" href="https://www.linkedin.com/in/jahanzaib-zafar-814ab4296/" target="_blank" rel="noreferrer">View LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/rizwan-asghar-dev" target="_blank" rel="noreferrer">View GitHub</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/muhammad-rizwan-php-laravel-developer/" target="_blank" rel="noreferrer">View LinkedIn</a>
       </div>
     </div>
     <div class="hero-orbit">
       <figure class="profile-card floating-card">
         <div class="profile-image-frame">
           <img
-            :src="`${base}profile-pic.png`"
-            alt="Jahanzaib Zafar Full Stack Developer"
+            :src="`${base}profile-pic.jpeg`"
+            alt="Muhammad Rizwan Full Stack Developer"
             width="280"
             height="350"
             loading="eager"
@@ -68,21 +68,21 @@ onMounted(() => {
           <span class="profile-status">Available</span>
         </div>
         <figcaption>
-          <strong>Jahanzaib Zafar</strong>
+          <strong>Muhammad Rizwan</strong>
           <span>Full Stack Developer</span>
         </figcaption>
       </figure>
       <div class="code-card floating-card">
         <span>Developer.js</span>
         <pre>const developer = {
-  name: "Jahanzaib Zafar",
-  stack: ["Laravel", "PHP", "MERN", "Vue", "Express", "Node"],
+  name: "Muhammad Rizwan",
+  stack: ["Laravel", "PHP", "Vue"],
   focus: "Production web"
 };</pre>
       </div>
       <div class="metric-card floating-card">
-        <b>30+</b><span>Projects</span>
-        <b>25+</b><span>Clients</span>
+        <b>15+</b><span>Projects</span>
+        <b>5+</b><span>Clients</span>
       </div>
     </div>
   </section>

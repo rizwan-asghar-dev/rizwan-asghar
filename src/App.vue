@@ -11,41 +11,41 @@ import TimelineSection from './components/TimelineSection.vue';
 import ContactSection from './components/ContactSection.vue';
 
 const siteUrl = 'https://jhanzaibgithub.github.io/jahanzaibzafar/';
-const profileImage = `${siteUrl}profile-pic.png`;
+const profileImage = `${siteUrl}profile-pic.jpeg`;
 const cvUrl = `${siteUrl}jahanzaib-developer.pdf`;
-const githubUrl = 'https://github.com/jhanzaibgithub';
-const linkedInUrl = 'https://www.linkedin.com/in/jahanzaib-zafar-814ab4296/';
+const githubUrl = 'https://github.com/rizwan-asghar-dev';
+const linkedInUrl = 'https://www.linkedin.com/in/muhammad-rizwan-php-laravel-developer/';
 const description =
-  'Jahanzaib Zafar is a Full Stack Developer building Laravel, MERN, Vue.js, Node.js, API, dashboard, and production web applications.';
+  'Muhammad Rizwan is a Full Stack Developer building Laravel, MERN, Vue.js, Node.js, API, dashboard, and production web applications.';
 
 const sectionMeta = {
   '#home': {
-    title: 'Jahanzaib Zafar | Full Stack Developer',
+    title: 'Muhammad Rizwan | Full Stack Developer',
     description,
   },
   '#about': {
-    title: 'About Jahanzaib Zafar | Full Stack Developer',
-    description: 'Learn about Jahanzaib Zafar, a Full Stack Developer specializing in Laravel, Vue.js, MERN, APIs, dashboards, and maintainable web products.',
+    title: 'About Muhammad Rizwan | Full Stack Developer',
+    description: 'Learn about Muhammad Rizwan, a Full Stack Developer specializing in Laravel, Vue.js, MERN, APIs, dashboards, and maintainable web products.',
   },
   '#projects': {
-    title: 'Projects by Jahanzaib Zafar | Laravel, MERN, Vue.js',
-    description: 'Explore production projects by Jahanzaib Zafar, including Laravel platforms, Vue.js interfaces, booking systems, dashboards, APIs, and business tools.',
+    title: 'Projects by Muhammad Rizwan | Laravel, MERN, Vue.js',
+    description: 'Explore production projects by Muhammad Rizwan, including Laravel platforms, Vue.js interfaces, booking systems, dashboards, APIs, and business tools.',
   },
   '#skills': {
-    title: 'Skills | Jahanzaib Zafar Full Stack Developer',
-    description: 'Technical skills for Jahanzaib Zafar: Laravel, PHP, Vue.js, React, Node.js, Express, MERN, MySQL, MongoDB, Firebase, REST APIs, and Git.',
+    title: 'Skills | Muhammad Rizwan Full Stack Developer',
+    description: 'Technical skills for Muhammad Rizwan: Laravel, PHP, Vue.js, React, Node.js, Express, MERN, MySQL, MongoDB, Firebase, REST APIs, and Git.',
   },
   '#experience': {
-    title: 'Experience | Jahanzaib Zafar',
-    description: 'Professional full stack development experience for Jahanzaib Zafar across freelance builds, business applications, APIs, dashboards, and web platforms.',
+    title: 'Experience | Muhammad Rizwan',
+    description: 'Professional full stack development experience for Muhammad Rizwan across freelance builds, business applications, APIs, dashboards, and web platforms.',
   },
   '#contact': {
-    title: 'Contact Jahanzaib Zafar | Full Stack Developer',
-    description: 'Contact Jahanzaib Zafar for full stack development work involving Laravel, Vue.js, MERN, dashboards, APIs, and production web applications.',
+    title: 'Contact Muhammad Rizwan | Full Stack Developer',
+    description: 'Contact Muhammad Rizwan for full stack development work involving Laravel, Vue.js, MERN, dashboards, APIs, and production web applications.',
   },
   '#resume': {
-    title: 'Resume | Jahanzaib Zafar CV',
-    description: 'Download the CV of Jahanzaib Zafar, Full Stack Developer specializing in Laravel, MERN, Vue.js, Node.js, APIs, and web applications.',
+    title: 'Resume | Muhammad Rizwan CV',
+    description: 'Download the CV of Muhammad Rizwan, Full Stack Developer specializing in Laravel, MERN, Vue.js, Node.js, APIs, and web applications.',
   },
 };
 
@@ -69,23 +69,23 @@ useHead(
     title: activeMeta.value.title,
     meta: [
       { name: 'description', content: activeMeta.value.description },
-      { name: 'author', content: 'Jahanzaib Zafar' },
+      { name: 'author', content: 'Muhammad Rizwan' },
       { name: 'robots', content: 'index, follow, max-image-preview:large' },
       { name: 'googlebot', content: 'index, follow, max-image-preview:large' },
       { property: 'og:type', content: 'profile' },
-      { property: 'og:site_name', content: 'Jahanzaib Zafar Portfolio' },
+      { property: 'og:site_name', content: 'Muhammad Rizwan Portfolio' },
       { property: 'og:title', content: activeMeta.value.title },
       { property: 'og:description', content: activeMeta.value.description },
       { property: 'og:url', content: siteUrl },
       { property: 'og:image', content: profileImage },
-      { property: 'og:image:alt', content: 'Jahanzaib Zafar Full Stack Developer' },
+      { property: 'og:image:alt', content: 'Muhammad Rizwan Full Stack Developer' },
       { property: 'profile:first_name', content: 'Jahanzaib' },
       { property: 'profile:last_name', content: 'Zafar' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: activeMeta.value.title },
       { name: 'twitter:description', content: activeMeta.value.description },
       { name: 'twitter:image', content: profileImage },
-      { name: 'twitter:image:alt', content: 'Jahanzaib Zafar Full Stack Developer' },
+      { name: 'twitter:image:alt', content: 'Muhammad Rizwan Full Stack Developer' },
     ],
     link: [
       { rel: 'canonical', href: siteUrl },
@@ -100,20 +100,20 @@ useHead(
           '@context': 'https://schema.org',
           '@type': 'Person',
           '@id': `${siteUrl}#jahanzaib-zafar`,
-          name: 'Jahanzaib Zafar',
+          name: 'Muhammad Rizwan',
           givenName: 'Jahanzaib',
           familyName: 'Zafar',
           jobTitle: 'Full Stack Developer',
           url: siteUrl,
           image: profileImage,
-          email: 'mailto:jahanzaibzafar.dev63@gmail.com',
+          email: 'mailto:rizwandnp266@gmail.com',
           description,
           knowsAbout: ['Laravel', 'MERN Stack', 'Vue.js', 'Node.js', 'React', 'PHP', 'REST APIs', 'MySQL', 'MongoDB'],
           sameAs: [githubUrl, linkedInUrl, siteUrl],
           mainEntityOfPage: siteUrl,
           hasCredential: {
             '@type': 'CreativeWork',
-            name: 'Jahanzaib Zafar CV',
+            name: 'Muhammad Rizwan CV',
             url: cvUrl,
           },
         }),
@@ -124,7 +124,7 @@ useHead(
           '@context': 'https://schema.org',
           '@type': 'WebSite',
           '@id': `${siteUrl}#website`,
-          name: 'Jahanzaib Zafar Portfolio',
+          name: 'Muhammad Rizwan Portfolio',
           url: siteUrl,
           description,
           publisher: {
@@ -150,26 +150,26 @@ useHead(
       <div class="resume-card glass-card">
         <div>
           <span class="eyebrow">Resume</span>
-          <h2 class="section-title">Jahanzaib Zafar <em>CV</em></h2>
+          <h2 class="section-title">Muhammad Rizwan <em>CV</em></h2>
           <p>
-            Download the CV for Jahanzaib Zafar, Full Stack Developer specializing in Laravel, MERN, Vue.js, Node.js,
+            Download the CV for Muhammad Rizwan, Full Stack Developer specializing in Laravel, MERN, Vue.js, Node.js,
             REST APIs, dashboards, and production web applications.
           </p>
         </div>
-        <a class="btn primary" :href="cvUrl" download="Jahanzaib-Zafar-CV.pdf">Download CV</a>
+        <a class="btn primary" :href="cvUrl" download="rizwan-developer.pdf">Download CV</a>
       </div>
     </section>
     <ContactSection />
   </main>
   <footer class="site-footer">
     <a href="#home" aria-label="Back to top">JZ</a>
-    <p>Crafted with precision by Jahanzaib Zafar</p>
+    <p>Crafted with precision by Muhammad Rizwan</p>
     <div class="footer-socials">
-      <a href="https://github.com/jhanzaibgithub" target="_blank" rel="noreferrer">GitHub</a>
-      <a href="https://www.linkedin.com/in/jahanzaib-zafar-814ab4296/" target="_blank" rel="noreferrer">LinkedIn</a>
-      <a :href="cvUrl" download="Jahanzaib-Zafar-CV.pdf">Download CV</a>
+      <a href="https://github.com/rizwan-asghar-dev" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/muhammad-rizwan-php-laravel-developer/" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a :href="cvUrl" download="rizwan-developer.pdf">Download CV</a>
       <a href="https://www.upwork.com/freelancers/~017d9280669d695f18?viewMode=1&mp_source=share" target="_blank" rel="noreferrer">Upwork</a>
     </div>
-    <span>(c) 2026 Jahanzaib Zafar. All rights reserved.</span>
+    <span>(c) 2026 Muhammad Rizwan. All rights reserved.</span>
   </footer>
 </template>
