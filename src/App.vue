@@ -10,7 +10,7 @@ import SkillsSection from './components/SkillsSection.vue';
 import TimelineSection from './components/TimelineSection.vue';
 import ContactSection from './components/ContactSection.vue';
 
-const siteUrl = 'https://jhanzaibgithub.github.io/jahanzaibzafar/';
+const siteUrl = 'https://github.com/rizwan-asghar-dev/rizwan-asghar.git';
 const profileImage = `${siteUrl}profile-pic.jpeg`;
 const cvUrl = `${siteUrl}rizwan-developer.pdf`;
 const githubUrl = 'https://github.com/rizwan-asghar-dev';
