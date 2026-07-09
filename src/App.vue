@@ -12,7 +12,7 @@ import ContactSection from './components/ContactSection.vue';
 
 const siteUrl = 'https://jhanzaibgithub.github.io/jahanzaibzafar/';
 const profileImage = `${siteUrl}profile-pic.jpeg`;
-const cvUrl = `${siteUrl}jahanzaib-developer.pdf`;
+const cvUrl = `${siteUrl}rizwan-developer.pdf`;
 const githubUrl = 'https://github.com/rizwan-asghar-dev';
 const linkedInUrl = 'https://www.linkedin.com/in/muhammad-rizwan-php-laravel-developer/';
 const description =
