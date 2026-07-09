@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/rizwan-asghar/',
+  base: process.env.VERCEL ? '/' : '/rizwan-asghar/',
   build: {
     outDir: 'dist',
   },
