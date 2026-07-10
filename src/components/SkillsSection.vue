@@ -12,8 +12,8 @@ const groups = [
       ['HTML5', 92],
       ['CSS3', 88],
       ['JavaScript', 86],
-      ['Vue.js', 84],
-      ['React', 76],
+      ['JQuery', 90],
+      ['Vue.js', 80],
     ],
   },
   {
@@ -21,9 +21,10 @@ const groups = [
     skills: [
       ['PHP', 86],
       ['Laravel', 84],
-      ['Node.js', 80],
-      ['Express.js', 78],
       ['REST APIs', 86],
+      ['Payment Gateway', 86],
+      ['Firebase', 80],
+      ['Third Party Apis', 80],
     ],
   },
   {
@@ -33,7 +34,7 @@ const groups = [
       ['MongoDB', 76],
       ['Firebase', 72],
       ['Git', 82],
-      ['Cloud Hosting', 76],
+      ['Optimize Queries', 88],
     ],
   },
 ];

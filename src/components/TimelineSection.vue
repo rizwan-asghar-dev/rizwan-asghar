@@ -6,47 +6,37 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const stats = [
-  ['5+', 'Years Experience'],
-  ['30+', 'Projects Delivered'],
-  ['25+', 'Clients'],
-  ['3', 'Corporate Companies'],
+  ['3+', 'Years Experience'],
+  ['10+', 'Projects Delivered'],
+  ['5+', 'Clients'],
+  ['2', 'Corporate Companies'],
 ];
 
 const entries = [
   // UPDATED
   {
-    range: 'October 2025 – Present',
+    range: 'Feb 2025 – Present',
     role: 'Full Stack Developer',
-    company: 'Dcodax Technology PVT LTD',
+    company: 'The Right Software PVT LTD',
     badge: 'CURRENT',
     bullets: [
-      'Architecting scalable MERN and Laravel web applications from concept to production deployment.',
+      'Architecting scalable and Laravel vue web applications from concept to production deployment.',
       'Collaborating directly with enterprise clients to translate business logic into robust database schemas and fast APIs.',
     ],
-tags: ["React", "Vue", "Laravel", "Node.js", "MongoDB", "Firebase"],  },
+tags: ["Laravle", "Vue", "javascript", "JQuery", "Mysql", "Firebase",'Docker','Payment Gateway'],  },
+  
   {
-    range: 'March 2023 – June 2025',
-    role: 'Senior Web Developer',
-    company: 'Virtual Netz Software Company',
-    bullets: [
-      'Architected and delivered high-traffic e-commerce platforms and custom business dashboards using Laravel, React.js, and MySQL.',
-      'Optimized complex database queries and implemented caching strategies, improving application page-load speed by over 40%.',
-      'Built and integrated secure, custom payment gateway APIs and third-party accounting software.',
-    ],
-    tags: ["HTML", "CSS", "JavaScript", "MERN", "Laravel", "MySQL", "REST APIs"],
-  },
-  {
-    range: 'July 2021 – July 2022',
+    range: 'Jan 2024 – Jan 2025',
     role: 'PHP / Laravel Developer',
-    company: 'House of Code',
+    company: 'Isloo Tech',
     bullets: [
       'Led an agile team of developers to design, build, and deploy enterprise-level Laravel applications across multiple industries.',
       'Standardized code review processes and database architecture guidelines, reducing post-deployment bugs by 25%.',
       'Managed client communication, translating complex business requirements into clear technical roadmaps.',
     ],
-tags: ["HTML", "CSS", "Bootstrap", "PHP", "JavaScript", "Laravel", "Git"],  },
+tags: ["Laravel", "JavaScript", "PHP","HTML", "CSS", "Bootstrap",  "Git"],  },
   {
-    range: '2016 – 2020',
+    range: '2020 – 2024',
     role: 'Bachelor of Computer Science (BCompSc)',
     company: 'Islamia University Bahawalpur (IUB)',
     bullets: [
