@@ -14,7 +14,7 @@ const socialLinks = [
   ['WhatsApp', 'WA', whatsappUrl],
   ['LinkedIn', 'in', 'https://www.linkedin.com/in/muhammad-rizwan-php-laravel-developer/'],
   ['GitHub', 'GH', 'https://github.com/rizwan-asghar-dev'],
-  ['Upwork', 'Up', 'https://www.upwork.com/freelancers/~017d9280669d695f18?viewMode=1&mp_source=share'],
+  ['Upwork', 'Up', 'https://www.upwork.com/freelancers/~016f49da46aa1df5fe'],
 ];
 
 onMounted(() => {
@@ -52,7 +52,7 @@ onMounted(() => {
           </a>
           <a
             class="contact-item"
-            href="https://www.upwork.com/freelancers/~017d9280669d695f18?viewMode=1&mp_source=share"
+            href="https://www.upwork.com/freelancers/~016f49da46aa1df5fe"
             target="_blank"
             rel="noreferrer"
           >

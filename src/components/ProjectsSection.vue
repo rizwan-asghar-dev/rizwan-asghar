@@ -238,7 +238,7 @@ onMounted(() => {
       <div class="more-work-row">
         <a
           class="btn primary more-work-btn"
-          href="https://www.upwork.com/freelancers/~017d9280669d695f18?viewMode=1&mp_source=share"
+          href="https://www.upwork.com/freelancers/~016f49da46aa1df5fe"
           target="_blank"
           rel="noreferrer"
         >

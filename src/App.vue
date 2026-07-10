@@ -168,7 +168,7 @@ useHead(
       <a href="https://github.com/rizwan-asghar-dev" target="_blank" rel="noreferrer">GitHub</a>
       <a href="https://www.linkedin.com/in/muhammad-rizwan-php-laravel-developer/" target="_blank" rel="noreferrer">LinkedIn</a>
       <a :href="cvUrl" download="rizwan-developer.pdf">Download CV</a>
-      <a href="https://www.upwork.com/freelancers/~017d9280669d695f18?viewMode=1&mp_source=share" target="_blank" rel="noreferrer">Upwork</a>
+      <a href="https://www.upwork.com/freelancers/~016f49da46aa1df5fe" target="_blank" rel="noreferrer">Upwork</a>
     </div>
     <span>(c) 2026 Muhammad Rizwan. All rights reserved.</span>
   </footer>

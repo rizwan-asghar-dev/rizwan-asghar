@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const stack = ['Vue', 'React', 'Node', 'Laravel', 'PHP', 'MySQL', 'MongoDB', 'Firebase', 'REST APIs', 'Git'];
+const stack = ['Laravel', 'Vue', 'Javascript', 'JQuery', 'PHP', 'MySQL', 'Inertia', 'Firebase', 'REST APIs', 'Git'];
 
 onMounted(() => {
   gsap.from('.about-title', {
@@ -37,7 +37,7 @@ onMounted(() => {
           I am a full stack developer focused on shipping clean, durable products for businesses that need more than a surface-level website.
         </p>
         <p>
-          My work spans Laravel backends, Vue and React interfaces, REST APIs, dashboards, booking flows, ecommerce, hosting tools, and automation-heavy platforms.
+          My work spans Laravel backends, Vue interfaces, REST APIs, dashboards, booking flows, ecommerce, hosting tools, and automation-heavy platforms.
         </p>
         <p>
           I keep the build process direct: understand the workflow, design the right architecture, implement carefully, and leave the project maintainable.
